@@ -1,0 +1,104 @@
+@font-face {
+    font-family: airbnb;
+    src: url(/assets/font/AirbnbCereal_W_Md.woff);
+}
+
+body {
+    font-family: airbnb;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    position: absolute;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    padding: 20px;
+    text-decoration: none;
+    color: #2E266F;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 0vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .intro {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.container .decoration {
+    height: 100vh;
+    width: 2%;
+    background-color: rgba(239, 200, 26, 1);
+}
+
+.container .content {
+    margin-left: 8vh;
+    margin-top: 10vh;
+    height: 90vh;
+    width: 98%;
+    display: flex;
+}
+
+.container .content .right-content {
+    margin: 25px;
+}
+
+.container .content .right-content .jumbotron img {
+    width: 700px;
+    height: 388px;
+}
+
+.container .content .right-content .jumbotron h1 {
+    width: 360px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 100;
+}
+
+.container .content .right-content .jumbotron h2 {
+    font-size: 15px;
+    color: #AAAAAA;
+}
+
+.container .content .left-content {
+    margin: 25px;
+    padding-left: 10vh;
+}
+
+.container .content .left-content .jumbotron .greet {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.container .content .left-content .jumbotron img {
+    width: 180px;
+    height: 100px;
+}
+
+.container .content .left-content .jumbotron h1 {
+    margin-top: 0px;
+    width: 180px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.container .content .left-content .jumbotron h2 {
+    padding-top: 0px;
+    font-size: 8px;
+    font-weight: 100;
+    color: #AAAAAA;
+}

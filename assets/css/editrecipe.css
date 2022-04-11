@@ -1,0 +1,242 @@
+@font-face {
+    font-family: airbnb;
+    src: url(/assets/font/AirbnbCereal_W_Md.woff);
+}
+
+body {
+    font-family: airbnb;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    position: absolute;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: white;
+}
+
+.navbar ul li {
+    padding: 20px;
+    text-decoration: none;
+    color: #2E266F;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 25vh;
+    width: 100%;
+}
+
+.container .intro .content .jumbotron {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .intro .content .jumbotron .form-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F5F4;
+    width: 100vh;
+    height: 40vh;
+}
+
+.container .intro .content .jumbotron .form-photo img {
+    width: 32px;
+    height: 32px;
+}
+
+.container .intro .content .jumbotron .form-photo input {
+    margin-top: 10px;
+    width: 10%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .intro .content .jumbotron .form-photo input::-webkit-file-upload-button {
+    visibility: hidden;
+    display: block;
+}
+
+.container .intro .content .jumbotron .form-photo input::before {
+    content: 'Add Photo';
+    color: #666666;
+}
+
+.container .intro .content .jumbotron .form-photo input:hover::before {
+    border-color: black;
+}
+
+.container .intro .content .jumbotron .form-photo input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.container .intro .content .jumbotron .form-title {
+    margin-top: 25px;
+    background-color: #F6F5F4;
+    width: 100vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .intro .content .jumbotron .form-title h1 {
+    color: #666666;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.container .intro .content .jumbotron .form-title input {
+    width: 90vh;
+    height: 4vh;
+    border: none;
+    background-color: #F6F5F4;
+    padding-right: 5px;
+}
+
+.container .intro .content .jumbotron .form-title input:focus {
+    outline: none;
+}
+
+.container .intro .content .jumbotron .form-ingredients {
+    margin-top: 25px;
+    background-color: #F6F5F4;
+    width: 100vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .intro .content .jumbotron .form-ingredients h1 {
+    padding-bottom: 25vh;
+    padding-left: 2vh;
+    color: #666666;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.container .intro .content .jumbotron .form-ingredients input {
+    width: 90vh;
+    padding-bottom: 25vh;
+    /* height: 30vh; */
+    border: none;
+    background-color: #F6F5F4;
+    padding-right: 5px;
+    text-align: left;
+}
+
+.container .intro .content .jumbotron .form-ingredients input:focus {
+    outline: none;
+}
+
+.container .intro .content .jumbotron .form-video {
+    margin-top: 25px;
+    background-color: #F6F5F4;
+    width: 100vh;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .intro .content .jumbotron .form-video h1 {
+    color: #666666;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.container .intro .content .jumbotron .form-video input {
+    width: 90vh;
+    height: 6vh;
+    border: none;
+    background-color: #F6F5F4;
+    padding-right: 5px;
+}
+
+.container .intro .content .jumbotron .form-video input:focus {
+    outline: none;
+}
+
+.container .intro .content .jumbotron button {
+    font-family: airbnb;
+    color: white;
+    margin-top: 60px;
+    width: 50vh;
+    height: 5vh;
+    border: none;
+    background-color: #EFC81A;
+}
+
+.container footer {
+    margin-top: 70px;
+    height: 40vh;
+    width: 100%;
+    background-color: #EFC81A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container footer .jumbotron {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container footer h1 {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: #2E266F;
+}
+
+.container footer h2 {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+    font-weight: 100;
+    color: #707070;
+}
+
+.container footer ul {
+    padding-left: 2px;
+    display: flex;
+    list-style: none;
+    padding-top: 200px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.container footer ul li {
+    padding: 2px;
+    font-size: 8px;
+}
+
+.container footer ul li a {
+    text-decoration: none;
+    color: #707070;
+}

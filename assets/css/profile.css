@@ -1,0 +1,174 @@
+@font-face {
+    font-family: airbnb;
+    src: url(/assets/font/AirbnbCereal_W_Md.woff);
+}
+
+body {
+    font-family: airbnb;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    position: absolute;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    padding: 20px;
+    text-decoration: none;
+    color: #2E266F;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 15vh;
+    width: 100%;
+}
+
+.container .intro .jumbotron {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container .intro .jumbotron .profile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .intro .jumbotron .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.container .intro .jumbotron .profile h1 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.container .intro .jumbotron .recipe-menu {
+    margin-top: 15vh;
+}
+
+.container .intro .jumbotron .recipe-menu ul {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.container .intro .jumbotron .recipe-menu ul li {
+    padding: 20px;
+    text-decoration: none;
+    color: #2E266F;
+    display: block;
+}
+
+.container .intro .jumbotron .recipe-menu ul li a {
+    text-decoration: none;
+    color: none;
+    color: #666666;
+}
+
+.container .intro .jumbotron .recipe-menu ul li a:active {
+    color: black;
+}
+
+.container .intro .jumbotron .recipe-menu .my-recipe {
+    padding-left: 7vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .intro .jumbotron .recipe-menu .my-recipe .one a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    padding: 15px;
+}
+
+.container .intro .jumbotron .recipe-menu .my-recipe .one img {
+    width: 325px;
+    height: 220px;
+    border-radius: 5%;
+}
+
+.container .intro .jumbotron .recipe-menu .my-recipe .one h1 {
+    width: 100px;
+    padding-top: 130px;
+    padding-left: 15px;
+    position: absolute;
+}
+
+.container .intro .jumbotron .recipe-menu .my-recipe .two a {
+    position: absolute;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    padding: 15px;
+}
+
+.container .intro .jumbotron .recipe-menu .my-recipe .two img {
+    width: 325px;
+    height: 220px;
+    border-radius: 5%;
+}
+
+.container .intro .jumbotron .recipe-menu .my-recipe .two h1 {
+    width: 100px;
+    padding-top: 130px;
+    padding-left: 15px;
+    position: absolute;
+}
+
+.container footer {
+    margin-top: 70px;
+    height: 10vh;
+    width: 100%;
+    background-color: #EFC81A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container footer .jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container footer ul {
+    padding-left: 2px;
+    display: flex;
+    padding-top: 40px;
+    list-style: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.container footer ul li {
+    padding: 5px;
+    font-size: 9px;
+}
+
+.container footer ul li a {
+    text-decoration: none;
+    color: #707070;
+}

@@ -1,0 +1,224 @@
+@font-face {
+    font-family: airbnb;
+    src: url(/assets/font/AirbnbCereal_W_Md.woff);
+}
+
+body {
+    font-family: airbnb;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    /* width: 100%; */
+    position: absolute;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: white;
+}
+
+.navbar ul li {
+    padding: 20px;
+    text-decoration: none;
+    color: #2E266F;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 10vh;
+    height: 100vh;
+}
+
+.container .intro .content .jumbotron .top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .intro .content .jumbotron .top-content h1 {
+    font-size: 36px;
+    color: #2E266F;
+    padding-bottom: 5px;
+}
+
+.container .intro .content .jumbotron .top-content img {
+    border-radius: 15px;
+    width: 600px;
+    height: 388px;
+}
+
+.container-2 {
+    width: 100%;
+}
+
+.container-2 .intro .jumbotron .mid-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2 .intro .jumbotron .mid-content h1 {
+    padding-left: 80px;
+    padding-bottom: 0px;
+    color: #3F3A3A;
+}
+
+.container-2 .intro .jumbotron .mid-content ul {
+    color: #000000;
+    margin-top: 0px;
+    padding-left: 85px;
+    width: 20%;
+    list-style: "-";
+}
+
+.container-2 .intro .jumbotron .mid-content h2 {
+    padding-left: 80px;
+    padding-bottom: 0px;
+    color: #3F3A3A;
+}
+
+.container-2 .intro .jumbotron .mid-content .video-list {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2 .intro .jumbotron .mid-content .video-list a button {
+    width: 200px;
+    height: 45px;
+    background-color: #EFC81A;
+    border-style: none;
+    margin-bottom: 15px;
+}
+
+.container-3 .intro .jumbotron .bottom-content {
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-3 .intro .jumbotron .bottom-content .comment-only {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container-3 .intro .jumbotron .bottom-content .comment-only .comment {
+    display: flex;
+    background-color: #F6F5F4;
+    width: 700px;
+    height: 200px;
+}
+
+.container-3 .intro .jumbotron .bottom-content .comment-only .comment input {
+    padding-left: 5px;
+    width: 600px;
+    border: none;
+    background-color: #F6F5F4;
+}
+
+.container-3 .intro .jumbotron .bottom-content .comment-only .comment input:focus {
+    outline: none;
+}
+
+.container-3 .intro .jumbotron .bottom-content .comment-only .comment .comment-text {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #666666;
+    font-size: 15px;
+    width: 100px;
+}
+
+.container-3 .intro .jumbotron .bottom-content .button-container {
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 .intro .jumbotron .bottom-content .button-container button {
+    color: white;
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: #EFC81A;
+}
+
+.container-3 .intro .jumbotron .bottom-content .comment-list {
+    padding-left: 80px;
+}
+
+.container-3 .intro .jumbotron .bottom-content .comment-list .comment-profile img {
+    width: 50px;
+    height: 50px;
+    padding-right: 25px;
+}
+
+.container-3 .intro .jumbotron .bottom-content .comment-list .comment-profile {
+    display: flex;
+}
+
+.container-3 footer {
+    margin-top: 70px;
+    height: 40vh;
+    width: 100%;
+    background-color: #EFC81A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 footer .jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 footer h1 {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: #2E266F;
+}
+
+.container-3 footer h2 {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+    font-weight: 100;
+    color: #707070;
+}
+
+.container-3 footer ul {
+    padding-left: 2px;
+    display: flex;
+    list-style: none;
+    padding-top: 200px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 footer ul li {
+    padding: 2px;
+    font-size: 8px;
+}
+
+.container-3 footer ul li a {
+    text-decoration: none;
+    color: #707070;
+}
