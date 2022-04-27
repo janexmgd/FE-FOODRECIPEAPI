@@ -1,3 +1,3 @@
 # FE-FOODRECIPEAPI
-
-A simple Website build with css native
+ 
+a simple website for client, built with css native and html
